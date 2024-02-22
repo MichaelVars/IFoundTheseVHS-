@@ -1,7 +1,48 @@
 /*#F61067, #5E239D, #00F0B5*/
 body{
+    background-image: url(/assets/vhsstack.jpeg);
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+}
+
+#personalFields{
+    display: flex;
+    flex-direction: column;
+    max-width: 10rem;
+    
+}
+
+#sectionWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    width: 40em;
+    height: 18em;
+    top: 15em;
+    left: calc(100% - 120em / 2);
+    background: rgba(0, 240, 181, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(0, 240, 181, 0.55);
+    
+}
+
+input{
+    margin-bottom: .15em;
+}
+
+#textArea{
+    margin-top: 1em;
+}
+
+button{
+    margin-bottom: 1em;  
 }
 header{
     display: flex;
@@ -61,3 +102,4 @@ nav ul li a:visited{
     color: white;
     font-size: 1.3em;
 }
+
